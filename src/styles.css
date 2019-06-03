@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 /* @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css"; */
+
+body {
+    background: #edeef0;
+    font: 16px -apple-system,BlinkMacSystemFont,"Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: scrollbar;
+}
+
+.nopadd {
+    padding: 0 !important;
+}
