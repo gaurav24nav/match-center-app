@@ -13,7 +13,7 @@ const routes: Routes = [
     component : TournamentListComponent
   },
   {
-    path : "match",
+    path : "",
     loadChildren : "./match/match.module#MatchModule"
   }
 ];
