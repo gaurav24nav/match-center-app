@@ -6,11 +6,11 @@ import { MatchSeriesComponent } from './match-series/match-series.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'details',
     component : MatchComponent
   },
   {
-    path: 'details',
+    path: '',
     component : MatchDetailsComponent
   },
   {

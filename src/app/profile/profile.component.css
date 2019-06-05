@@ -1,0 +1,55 @@
+.profile{
+    margin-top: 50px;
+}
+.side_bar , .player_table{
+    background-color: #f9f9fb;
+    border-radius: 5px;
+}
+h6.side_bar_head {
+    padding-bottom: 8px;
+    margin-bottom: 0;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+}
+.side_bar ul li{ 
+    padding: 10px;
+    font-size: 12px;
+    border-bottom: 1px dotted #ccc;
+    cursor: pointer;
+    color: #ada8a8;
+}
+.side_bar ul li i{
+    margin-right:2px;
+}
+.side_bar ul li:hover{ 
+    background: green;
+    color: #fff !important;
+}
+.player_table {
+    margin-top: 28px;
+    padding: 10px;
+    overflow: hidden;
+}
+.player_table h6 img{
+    width: 20px;
+    border-radius: 100px;
+}
+span.contry_name {
+    font-size: 12px;
+    font-weight: normal;
+}
+.plyer_record{
+    margin-top: 15px;
+}
+.player_img img{
+    height: 170px;
+}
+.plyer_record ul li{
+    font-size: 12px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.plyer_record ul li:hover{
+    color: green
+    
+}

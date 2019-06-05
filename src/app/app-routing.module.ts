@@ -9,11 +9,11 @@ const routes: Routes = [
     component: ProfileComponent
   },
   {
-    path : "tournament",
+    path : "",
     component : TournamentListComponent
   },
   {
-    path : "",
+    path : "match",
     loadChildren : "./match/match.module#MatchModule"
   }
 ];
