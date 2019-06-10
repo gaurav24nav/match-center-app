@@ -1,106 +1,70 @@
 
 .filter_by input{
-    padding: 6px;
-    margin-left: 30px;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    width: 250px;
-    text-indent: 5px;
-    font-size: 12px;
-  }
-  .filter_by{
-    position: relative;
-    width: 35%;
-  }
-  .filter_by i{
-    position: absolute;
-    right: 60px;
-    color: #ccc;
-    top: 5px;
-  }
-  
-  .box_info , .match_info{
-      background-color: #fff;
-      border-radius: 5px;
-      padding: 10px 0 1px 10px;
-      margin-bottom: 15px;
-  }
-  select{
-    background-color: #f9f9fb;
-    border: 1px solid #e0e0e3;
+  padding: 6px;
+  margin-left: 30px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 250px;
+  text-indent: 5px;
+  font-size: 12px;
+}
+.filter_by{
+  position: relative;
+  width: 35%;
+}
+.filter_by i{
+  position: absolute;
+  right: 60px;
+  color: #ccc;
+  top: 5px;
+}
+
+.box_info , .match_info{
+    background-color: #fff;
     border-radius: 5px;
-    margin-left: 15px;
-    padding: 2px 5px;
-  }
-  .team_record{
-    margin-top: 15px;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  
-  p.team_win {
-    font-size: 10px;
-    padding: 15px;
-    padding-top: 0;
-    padding-bottom: 0px;
-  }
-  .scor_bt button{
-    border: 1px solid #edeef1;
-      color: green;
-      text-transform: uppercase;
-      border-radius: 10px;
-      margin: 0 10px;
-      margin-bottom: 10px;
-      background: transparent;
-      font-size: 10px;
-      padding: 5px 10px;
-      border-color: green;
-      font-weight: 600;
-  }
-  .scor_bt button:hover{
-    background-color: green;
-    color: #fff;
-  }
-  .team_score p span:hover{
-    color: green;
-  }
-  .team_score{
-    margin-top: 15px;
-  }
-  .team_score img{
-    width: 20px;
-  }.team_score p{
-    margin-bottom: 8px;
-  }
-  .margi_left15{
-    margin-left: 15px;
-  }
-  .margin10{
-    margin: 0 10px;
-  }
-  .margin_right10{
-    margin-right: 10px;
-  }
-  .card{
-    padding: 10px;
-  }
-  .card:hover,.box_info:hover{
-    box-shadow: 1px 5px 5px 0 #ccc;
-  }
-  .match_details{
-    float: right;
-    font-size: 12px
-  }
-  span.team_name {
-    font-size: 14px;
-    font-weight: 600;
-  }
-  span.target {
-    float: right;
-    font-size: 14px;
-  }
-  .box_row{
-    padding: 0;
-    margin-top: 10px;
-  }
+    padding: 10px 0 1px 10px;
+    margin-bottom: 15px;
+}
+.detail-box{
+ padding-top: 30px;
+ background-color: #ffffff;
+}
+.left-box p{
+ color: #666;
+}
+.logo-margin-top{
+  margin-top:20px;
+}
+.logo-margin-top2{
+
+  font-family: Roboto;
+  line-height: 30px;
+  color: #212121;
+}
+.logo-margin-top2{
+
+  font-family: Roboto;
+  line-height: 30px;
+  color: #212121;
+}
+.cks-margin-top img{
+
+   max-width: 60px;
+   max-height: 60px;
+   width: auto!important;
+   height: inherit;
+}
+.right-border-logo{
+  border-right: 1px solid #666;
+}
+.won-detail p{
+   margin-top:30px;
+   margin-left:14%;
+   color: blue;
+}
+.text_left
+{
+  margin-left: 20px;
+}
+
+
