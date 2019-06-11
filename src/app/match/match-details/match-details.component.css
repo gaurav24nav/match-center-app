@@ -43,7 +43,7 @@
  color: #666;
 }
 .logo-margin-top{
-  margin-top:8px;
+  margin-top:15px;
 }
 .logo-margin-top2{
 
@@ -54,7 +54,6 @@
     font-size: 22px;
     font-style: italic;
         margin-top: 19px;
-
 }
 
 .logo-margin-top2 span,h3{
@@ -74,7 +73,7 @@
 
   }
 .right-border-logo{
-  border-right: 1px solid #666;
+  border-right: 1px solid #c1bebe;
   height: 120px;
   width: 140px;
 }
@@ -114,10 +113,10 @@
 }
 
 .right-border-btn{
-  border-right: 1px solid #666;
+  border-right: 1px solid #c1bebe;
   height: 120px;
   width: 100px;
-  margin-top: 20px;
+  margin-top:15px;
 }
 .Kolkata
 {
@@ -127,12 +126,18 @@
 }
 
 
-
+.btn-2
+{
+  width: 136px;
+  height: 35px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 .btn-1
 {
     width: 136px;
     height: 35px;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .btn_primary{
   background-color: #3a85d4 !important;

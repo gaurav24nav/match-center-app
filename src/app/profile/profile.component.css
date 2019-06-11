@@ -2,8 +2,9 @@
     margin-top: 50px;
 }
 .side_bar , .player_table{
-    background-color: #f9f9fb;
+    background-color: #ffff;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 h6.side_bar_head {
     padding-bottom: 8px;
@@ -16,14 +17,11 @@ h6.side_bar_head {
     font-size: 12px;
     border-bottom: 1px dotted #ccc;
     cursor: pointer;
-    color: #ada8a8;
-}
-.side_bar ul li i{
-    margin-right:2px;
+    color: #000000;
 }
 .side_bar ul li:hover{ 
-    background: #28bf87;
-    color: #fff !important;
+    background: #3a85d4 !important;
+    color: #fff;
 }
 .player_table {
     margin-top: 28px;
@@ -43,6 +41,7 @@ span.contry_name {
 }
 .player_img img{
     height: 170px;
+
 }
 .plyer_record ul li{
     font-size: 12px;
@@ -50,22 +49,43 @@ span.contry_name {
     cursor: pointer;
 }
 .plyer_record ul li:hover{
-    color: #28bf87
+    color: #28bf87;
     
 }
 
 .side-menu-right{
     float: right;
-    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    padding: 46px;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -57px;
 }
 
 .bg-menu-li{
-    background-color:#343a40 !important;
-    border-top:7px solid #28bf87;
+    color: #000;
+    background-color:#ffffff !important;
 }
 .side-bar-li-head{
-    color: #ffffff;
+
     font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: -10px;
+    font-family: Roboto;
+    color: #000000eb;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
     text-align: center;
 }
 .ul-menu-margin{
@@ -78,6 +98,7 @@ span.contry_name {
     background-color: #28bf87;
     text-align: center;
     margin:17px;
+    margin-left:40%;
 }
 .jersey-num{
     line-height: 50px;
@@ -87,33 +108,48 @@ span.contry_name {
 }
 .player-name{
     margin-top: -56px;
-    margin-left: 97px;
+    margin-left: 31%;
     font-size: 26px;
     position: absolute;
 }
 .img-div{
     height: 250px;
     width: 220px;
-    margin-top: 21px;
-    margin-left: 15px;
+    margin-top: 35px;
+    margin-left: -39px;
     background-color: #e8dede;
 }
+.id-border{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 7%;
+    margin-right: 25%;
+    margin-top: 7%;
+}
+
 #margin-left{
     margin-left: 7%;
+    margin-bottom: 0;
+    font-family: Roboto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    /* font-size: 12px; */
 }
 .flag img{
     position: relative;
-    float: right;
+    float: left;
     margin-right: 26%;
     margin-top: -70px;
 }
 .table-id-bg{
-    margin-top: -21%;
-    margin-left: 21%;
+    margin-top: -31%;
+    margin-left: 27%;
     width: 577px;
     height: 249px;
     padding: 52px;
-    background-color: #f9f9fb;
+    background-color: #ffffff;
 }
 .table-id{
     margin-top: -10%;
@@ -128,9 +164,20 @@ span.contry_name {
     text-align: center;
 }
 #description p{
-    margin-left: 5%;
-    margin-right: 27%;
+    margin-left: -8%;
+    margin-top: 14px;
+    margin-right: 1%;
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+    cursor: pointer;
+    font-family: Roboto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
 }
+
 .borderTable{
     border-top: 7px solid #28bf87;
     width: 65%;
@@ -141,6 +188,12 @@ span.contry_name {
 .table-hadding{
     margin-left: 6%;
     margin-top:4%;
+    font-family: Roboto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
 }
 .tr{
     width: 97px;
