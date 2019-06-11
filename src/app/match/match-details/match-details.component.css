@@ -133,7 +133,10 @@
     width: 136px;
     height: 35px;
     margin-top: 5%;
-    background-color: #3a85d4 !important;
+}
+.btn_primary{
+  background-color: #3a85d4 !important;
+
 }
 
 .bottom-margin{
