@@ -17,13 +17,8 @@ h6.side_bar_heading {
     font-weight: 800;
     text-align: center;
 }
-.side_bar ul li ul{
-    display: none;
-}
 
-.side_bar ul li:hovr ul{
-    display:inline-block;
-}
+
 h6.side_bar_head {
     border-bottom: 1px solid #ccc;
     padding-bottom: 8px;
@@ -40,6 +35,8 @@ h6.side_bar_head {
 }
 .side_bar ul li{ 
     padding: 10px;
+    padding-right:0px;
+    padding-left: 12px;
     border-bottom: 1px dotted #ccc;
     cursor: pointer;
     font-family: Roboto;
@@ -49,13 +46,14 @@ h6.side_bar_head {
     font-style: italic;
     font-weight: 400;
 }
-.side_bar ul li i{
+.side_bar ul li{
     margin-right:2px;
 }
 .side_bar ul li:hover{ 
-    background:#3a85d4;
-    color: #fff;
+    /* background:#3a85d4; */ 
+    /* color: #fff; */
 }
+
 .tournament_series{
    background-color: #f9f9fb;
    border-radius: 5px; 
@@ -150,4 +148,55 @@ marquee {
 }
 .margin_top12{
     margin-top: 15px;
+}
+body {
+	background-color: #fff;
+	font-size: 14px;
+}
+nav {
+	position: relative;
+	/* margin: 50px; */
+	/* width: 360px; */
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+  /* Sub Menu */
+}
+nav ul li a {
+	display: block;
+	/* background: #ebebeb;
+	padding: 10px 15px; */
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+	transition: 0.2s linear;
+}
+nav ul li a:hover {
+	background: #f8f8f8;
+	color: #515151;
+}
+nav ul li a .fa {
+	width: 16px;
+	text-align: center;
+	margin-right: 5px;
+	float:right;
+}
+nav ul ul {
+	/* background-color:#ebebeb; */
+}
+nav ul li ul li a {
+	background: #f8f8f8;
+	border-left: 4px solid transparent;
+	padding: 10px 20px;
+}
+nav ul li ul li a:hover {
+	background: #ebebeb;
+	/* border-left: 4px solid #3498db; */
 }

@@ -55,7 +55,6 @@ span.contry_name {
 
 .side-menu-right{
     float: right;
-    border-bottom: 1px solid #ccc;
     padding-bottom: 8px;
     padding: 46px;
     margin-bottom: 12px;
@@ -89,7 +88,7 @@ span.contry_name {
     text-align: center;
 }
 .ul-menu-margin{
-    margin-top: 50px;
+    margin-top: 11px;
 }
 .jersey-bg{
     display: inline-block;
@@ -140,7 +139,7 @@ span.contry_name {
 .flag img{
     position: relative;
     float: left;
-    margin-right: 26%;
+    margin-left: 3%;
     margin-top: -70px;
 }
 .table-id-bg{
