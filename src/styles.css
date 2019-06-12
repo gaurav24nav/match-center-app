@@ -37,3 +37,15 @@ a {
 .col-md-2,.col-md-3 ,.col-md-6,.col-md-8 , .col-md-4 , .col-md-5,.col-md-7,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
     float: left;
 }
+.title{
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dcdddf;
+    /* margin-bottom: 10px; */
+}
+.bottom-margin{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3%;
+    background-color: #ffffff;
+}

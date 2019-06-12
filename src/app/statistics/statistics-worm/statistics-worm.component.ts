@@ -26,8 +26,8 @@ export class StatisticsWormComponent implements OnInit {
   public barChartPlugins = [pluginDataLabels];
 
   public barChartData: ChartDataSets[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40,28, 48, 40, 19, 86, 27, 90,56, 55, 40,28, 48, 40], label: 'MUMBAI INDIANS' },
-    { data: [28, 48, 40, 19, 86, 27, 90,65, 59, 80, 81, 56, 55, 40, 27, 90,65, 59, 80, 81], label: 'CHANNAI SUPER KINGS' }
+    { data: [65, 59, 80, 81, 56, 55, 40,28, 48, 40, 19, 86, 27, 76,56, 55, 40,28, 48, 40], label: 'MUMBAI INDIANS' },
+    { data: [28, 48, 40, 19, 86, 27, 76,65, 59, 80, 81, 56, 55, 40, 27, 76,65, 59, 80, 81], label: 'CHANNAI SUPER KINGS' }
   ];
 
   constructor() { }

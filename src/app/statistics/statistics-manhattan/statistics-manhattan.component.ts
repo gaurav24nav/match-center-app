@@ -26,8 +26,8 @@ export class StatisticsManhattanComponent implements OnInit {
   public barChartPlugins = [pluginDataLabels];
 
   public barChartData: ChartDataSets[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40,65, 59, 80, 81, 56, 55, 40,65, 59, 80, 81, 56, 55], label: 'MUMBAI INDIANS' },
-    { data: [28, 48, 40, 19, 86, 27, 90,28, 48, 40, 19, 86, 27, 90,28, 48, 40, 19, 86, 27], label: 'CHANNAI SUPER KINGS' }
+    { data: [65, 59, 80, 81, 56, 55, 40,65, 59, 76, 81, 56, 55, 40,65, 59, 80, 81, 56, 55], label: 'MUMBAI INDIANS' },
+    { data: [28, 48, 40, 19, 86, 27, 76,28, 48, 40, 19, 86, 27, 76,28, 48, 40, 19, 86, 27], label: 'CHANNAI SUPER KINGS' }
   ];
 
   constructor() { }
