@@ -49,3 +49,31 @@ a {
     margin-bottom: 3%;
     background-color: #ffffff;
 }
+
+.side_bar{
+    background-color: #f9f9fb;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+h6.side_bar_heading {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.side_bar ul li {
+    margin-right: 2px;
+}

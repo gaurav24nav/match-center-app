@@ -49,16 +49,13 @@ h6.side_bar_head {
 .side_bar ul li{
     margin-right:2px;
 }
-.side_bar ul li:hover{ 
-    /* background:#3a85d4; */ 
-    /* color: #fff; */
-}
 
 .tournament_series{
    background-color: #f9f9fb;
    border-radius: 5px; 
    cursor: pointer; 
    padding: 10px;
+   margin-top:24px; 
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
