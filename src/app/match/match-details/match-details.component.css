@@ -165,9 +165,18 @@
   .title-head{
     font-size: 17px;
   }
+  .match-date{
+    margin-left:40px;
+    margin-top: 15px;
+  }
   .filter_by{
   position: relative;
   width: auto;
+}
+.right-border-logo{
+  border-bottom: 1px solid #c1bebe;
+  height: 120px;
+  width: 100%;
 }
 .team
 {
@@ -176,23 +185,85 @@
      font-style: italic;
      font-weight: 300;
 }
-.match-date{
-      font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 1rem;
+.text_148{
+  margin-left:0px;
+}
+.text_20{
+  margin-left: 69px;
+  margin-top: -35px;
+}
+.cks-margin-top img{
+  max-height: 72px;
+    width: auto!important;
+    height: inherit;
+    margin-top: -89px;
+    max-width: 90px;
+}
+.logo-margin-top2{
+  font-family: Roboto;
+  line-height: 18px;
+  color: #212121;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 19px;
+  width: 189px;
+  margin-left: 83px;
+  border-bottom: 1px solid #c1bebe;
 }
 
-
+.right-border-logo{
+  border-right: none;
 }
+.cks-margin-top img{
+  max-height: 55px;
+  margin-left: -20px;
+}
+
+.right-border-logo{
+  border-bottom: 1px solid #c1bebe;
+    height: 82px;
+    width: 100%;
+}
+.right-border-logo{
+  border-bottom: none;
+}
+.logo-margin-responsive{
+  margin-top:-73px;
+}
+.right-border-btn{
+  border-right:none;
+  height:0px;
+  width: 0px;
+}
+.strong-margin{
+  margin-top:0px;
+}
+.btn_primary{
+  float: right;
+  margin-top:4%;
+}
+.btn-1{
+  float: left;
+  width: 129px;
+    height: 35px;
+    margin-top: 4%;
+    margin-bottom: 15px;
+}
+.Kolkata{
+  font-size: 14px;
+}
+} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-}
+  
+} 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
