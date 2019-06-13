@@ -18,3 +18,93 @@ li {
     right: 0;
     width: 16px;
 }
+.Bowlers
+{
+	height: 415px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 20px;
+  	border-radius: 10px;
+}
+.img_dhoni
+{
+	height: 50px;
+	width: 50px;
+	margin-top: -5px;
+}
+.imran
+{
+	margin-left: 60px;
+	margin-top: -33px;
+}
+
+.right_border
+{
+	height: 320px;
+	width: 1px;
+	background-color: grey;
+	border-right: 1px;
+	float: right;
+	margin-top: -310px;
+}
+.chart-table {
+    float: left;
+    width: 106px;
+}
+.chart-table tr {
+    border-bottom: #dcdddf 1px dashed;
+    border-top: #dcdddf 1px dashed;
+}
+.rbh
+{
+	margin-top: 10px;
+}
+table tr {
+    border-top: 1px solid #f1f2f3;
+    text-align: right;
+}
+ table tr td {
+    border-left: #f1f2f3 1px solid;
+    border-right: #f1f2f3 1px solid;
+    font-size: 9px;
+    height: 32px;
+    line-height: 1;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+table caption {
+    border-bottom: 0;
+    height: auto;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.chart-table-headers {
+    font-size: 9px;
+    font-weight: 600;
+    position: absolute;
+    left: -41px;
+    right: 0;
+    /* top: 66px; */
+}
+ .li-set li {
+    line-height: 32px;
+    text-align: center;
+    list-style: none;
+}
+.li-set ul li span{
+	color:red!important;
+}
+.chart-table-headers li span.label.full {
+    display: inline;
+}
+.short{
+	display: none
+}
+.label-short.abel-full {
+	color:#000;
+}
+.abel-full {
+	color:#000;
+}

@@ -262,7 +262,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  
+  .logo-margin-top2{
+    
+  }
 
 } 
 
