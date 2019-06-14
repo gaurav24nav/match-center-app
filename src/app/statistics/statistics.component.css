@@ -1,3 +1,16 @@
+.run {
+    display: block;
+    margin-top: 70px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 20px;
+
+}
 .padding_set{
     padding-top: 30px;
     border-radius:  10px;
@@ -7,16 +20,14 @@ li {
     text-align: center;
 }
 .icon-wicket{
-    background-image: url(https://a.espncdn.com/redesign/assets/img/icons/icon-wicket.png);
+
     background-size: 8px 13px;
-    background-color: #fff;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 22px;
     left: 0;
     margin: -16px auto 0;
     right: 0;
     width: 16px;
+    clear: both;
 }
 .Bowlers
 {
@@ -29,12 +40,22 @@ li {
 {
 	height: 50px;
 	width: 50px;
-	margin-top: -5px;
+    margin-top: -5px;
+    border-radius: 50px;
 }
 .imran
-{
+{   
+    font-family: Roboto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 800;
+    font-style: italic;
+    font-weight: 800;
 	margin-left: 60px;
-	margin-top: -33px;
+    margin-top: -33px;
+    display: block;
 }
 
 .right_border
@@ -44,7 +65,8 @@ li {
 	background-color: grey;
 	border-right: 1px;
 	float: right;
-	margin-top: -310px;
+    margin-top: -315px;
+    margin-left: 5px;
 }
 .chart-table {
     float: left;
@@ -93,6 +115,9 @@ table caption {
     text-align: center;
     list-style: none;
 }
+.li-set{
+    margin-top: 40px;
+}
 .li-set ul li span{
 	color:red!important;
 }
@@ -103,8 +128,72 @@ table caption {
 	display: none
 }
 .label-short.abel-full {
-	color:#000;
+    color:#000;
 }
-.abel-full {
-	color:#000;
+
+b
+{
+    float: right;
+}
+.table_rbh
+{
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.bottom-margin-frist-div {
+    height: 814px;
+    margin-left:0px;
+}
+.right_border{
+    display: none;
+}
+.li-set{
+    margin-left: 123px;
+}
+.label-full{
+    display: none;
+}
+.chart-table{
+    margin-left: -55px;
+    margin-top: 21px;
+}
+.table_rbh b{
+    margin-top:-11px;
+}
+b{
+    margin-bottom: 14px;
+}
+ .li-set-mob{
+      display: inline-block;
+    margin-top: -107%;
+    margin-left: 66%;
+}
+.li-top{
+    display: inline-block;
+    margin-top: -84%;
+    margin-left: 39px;
+}
+
+    
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
