@@ -1,22 +1,3 @@
-<style>
-	.run {
-		display: block;
-		margin-top: 70px;
-	}
-
-	p {
-		margin-top: 0;
-		margin-bottom: -1rem;
-		font-family: "Roboto";
-		font-weight: 600;
-		font-size: 20px;
-
-	}
-</style>
-
-
-
-
 <div class="will">
 	<!-- <div class="container">
 		<div class="row run">
@@ -42,17 +23,20 @@
 					 <div class="col-md-12">
 						<p class="title">Best performances - Bowlers</p>
 						<hr />
-						<div class="will col-md-6">
-						   <div class="col-md-1">
-							  <img src="../../../assets/Virat-Kohli.jpg" class="img-circle img_dhoni">
-							  <h5 class="imran">ImranTahir</h5>
+						<div class="will col-md-6"> 
+						   <div class="col-md-1 imran">
+							  <img src="../../../assets/rohitjpg.jpg" class="img-circle img_dhoni">
 						   </div>
-						   <div class="col-md-5 pull-right">
-							  <p><b>o m r w eco<br />4 0 20 3 5.00</b></p>
+						   <div class="player-name">
+							<h5 class="imran">Rohit Sharma
+								</h5>
+						   </div>
+						   <div class="col-md-12 right-float">
+							  <p class="omrw"><b>o m r w eco<br />4 0 20 3 5.00</b></p>
 						   </div>
 						   <div style="clear: both;"></div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh"><b>RBH</b></h6>
 							  <table class="chart-table">
 								 <caption>
 									<div><span>OFF_____|||_____</span><span class="icon-wicket"
@@ -105,7 +89,7 @@
 							  </table>
 						   </div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh"><b>RBH</b></h6>
 							  <ul class="chart-table-headers li-set">
 								 <li  ><span class="label-short" >FT</span><span class="label-full" >FULL TOSS</span></li>
 								 <li ><span class="label-short" >Y</span><span class="label-full" >YORKER</span></li>
@@ -116,7 +100,7 @@
 							  </ul>
 						   </div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh"><b>RBH</b></h6>
 							  <table class="chart-table">
 								 <caption>
 									<div><span>OFF_____|||_____</span><span class="icon-wicket"
@@ -171,16 +155,19 @@
 						   <div class="right_border"></div>
 						</div>
 						<div class="will col-md-6 pull-right">
-						   <div class="col-md-1">
+						   <div class="col-md-1 imran">
 							  <img src="../../../assets/Virat-Kohli.jpg" class="img-circle img_dhoni">
-							  <h5 class="imran">ImranTahir</h5>
 						   </div>
-						   <div class="col-md-5 pull-right">
-							  <p><b>o m r w eco<br />4 0 20 3 5.00</b></p>
+						   <div class="player-name">
+							<h5 class="imran">Virat Kohli</h5>
+						  </div>
+						
+						   <div class="col-md-5 right-float">
+							  <p class="omr"><b>o m r w eco<br />4 0 20 3 5.00</b></p>
 						   </div>
 						   <div style="clear: both;"></div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh"><b>RBH</b></h6>
 							  <table class="chart-table">
 								 <caption>
 									<div><span>OFF_____|||_____</span><span class="icon-wicket"
@@ -233,7 +220,7 @@
 							  </table>
 						   </div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh" ><b>RBH</b></h6>
 							 <ul class="chart-table-headers li-set">
 								 <li  ><span class="label-short" >FT</span><span class="label-full" >FULL TOSS</span></li>
 								 <li ><span class="label-short" >Y</span><span class="label-full" >YORKER</span></li>
@@ -244,7 +231,7 @@
 							  </ul>
 						   </div>
 						   <div class="col-md-4">
-							  <h6><b>RBH</b></h6>
+							  <h6 class="rbh"><b>RBH</b></h6>
 							  <table class="chart-table">
 								 <caption>
 									<div><span>OFF_____|||_____</span><span class="icon-wicket"
@@ -303,19 +290,19 @@
 		 </section>
 	</div>
 	<div class="row run">
-		<div class="col-md-8 col-sm-8 col-xs-8 bottom-margin padding_set">
+		<div class="col-md-12 col-sm-8 col-xs-8 bottom-margin padding_set">
 			<p class="title">Manhattan </p><br />
 			<app-statistics-manhattan></app-statistics-manhattan>
 		</div>
 	</div>
 	<div class="row run">
-		<div class="col-md-8 col-sm-8 col-xs-8 bottom-margin padding_set">
+		<div class="col-md-12 col-sm-8 col-xs-8 bottom-margin padding_set">
 			<p class="title"> Run Rate</p><br />
 			<app-statistics-run-rate></app-statistics-run-rate>
 		</div>
 	</div>
 	<div class="row run">
-		<div class="col-md-8 col-sm-8 col-xs-8 bottom-margin padding_set">
+		<div class="col-md-12 col-sm-8 col-xs-8 bottom-margin padding_set">
 			<p class="title">Worm</p><br />
 			<app-statistics-worm></app-statistics-worm>
 		</div>

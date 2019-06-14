@@ -73,6 +73,14 @@
         max-width: 90px;
 
   }
+  .cks-margin-top2 img{
+    max-height: 72px;
+    width: auto!important;
+    height: inherit;
+    margin-top: 19px;
+        max-width: 90px;
+
+  }
 .right-border-logo{
   border-right: 1px solid #c1bebe;
   height: 120px;
@@ -210,6 +218,7 @@
   width: 189px;
   margin-left: 83px;
   border-bottom: 1px solid #c1bebe;
+ 
 }
 
 .right-border-logo{
@@ -245,13 +254,18 @@
 }
 .btn-1{
   float: left;
-  width: 129px;
+  width: 106px;
     height: 35px;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-bottom: 15px;
 }
+.btn-2{
+  width: 106px;
+  margin-top: 16px;
+}
 .Kolkata{
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
 }
 } 
 
@@ -260,12 +274,55 @@
   
 } 
 
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   
-  .logo-margin-top2{
-    
+  .right-border-btn{
+    width: 25px;
   }
+  .right-border-btn{
+    display: none
+  }
+.Kolkata{
+  font-size: 15px;
+}
+.logo-margin-ipad
+{
+  width: 29%;
+  padding-left: 28px;
+  margin-left: 16px;
+}
+.margin-img-ipad
+{
+  margin-top: 11px;
+  margin-left: -24px;
+}
+.cks-margin-top img{
+    float: right;
+    margin-right: 17px;
+}
+.text_149{
+  margin-left:0px;
+}
+.text_19{
+  margin-left:71px;
+}
+.right-border-logo{
+  margin-right: 11px;
+  border-right: 1px solid #c1bebe;
+  margin-left: -33px;
+  width: 140px;
+  padding-right: 99px;
+  padding: 0px;
+}
+.strong-margin{
+  float: right;
+  border-left: 1px solid #c1bebe;
+  height: 114px;
+  margin-top: 24px;
+}
 
 } 
 

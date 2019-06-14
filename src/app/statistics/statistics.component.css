@@ -1,3 +1,18 @@
+.run {
+    display: block;
+    margin-top: 70px;
+}
+.label-short{
+    display: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 20px;
+
+}
 .padding_set{
     padding-top: 30px;
     border-radius:  10px;
@@ -29,12 +44,8 @@ li {
 {
 	height: 50px;
 	width: 50px;
-	margin-top: -5px;
-}
-.imran
-{
-	margin-left: 60px;
-	margin-top: -33px;
+    margin-top: -5px;
+    border-radius: 50px;
 }
 
 .right_border
@@ -56,7 +67,8 @@ li {
 }
 .rbh
 {
-	margin-top: 10px;
+    color:white;
+	margin-top: 25px;
 }
 table tr {
     border-top: 1px solid #f1f2f3;
@@ -107,4 +119,36 @@ table caption {
 }
 .abel-full {
 	color:#000;
+}
+.imran{
+    display: inline-block;
+}
+.right-float{
+    float: right;
+}
+.player-name{
+    margin-left:30px;   
+    display: inline-block;
+}
+.omrw
+{    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+.omr{
+    
+    margin-left: 75px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Bowlers{
+        height: auto;
+    }
+    .chart-table{
+        width: 100%;
+    }
+    .right_border{
+        display: none;
+    }
 }
